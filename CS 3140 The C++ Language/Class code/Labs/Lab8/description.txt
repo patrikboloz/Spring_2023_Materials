@@ -1,0 +1,36 @@
+Create a Car_Dealership class where you will generate a car stock every new
+day, show the stock, and a user can check if the specific car combo is in stock.
+
+Requirements: 
+1) Create three files:
+	a) car_dealership.h - Where you will create your Car_Dealership class
+	b) test.cpp - where you will test all of your methods/functions
+	d) fancy.cpp - where you will create an interactive environemnt, where
+				   where a user can choose between these actions:
+				   1) See today's stock of all cars.
+	               2) See a specific stock of a certain car.
+	               3) Go to a new day.
+	               4) Leave the dealership.
+
+2) Create these private arrays:
+	a) string car_bodytype[5] = {"Sedan", "Pickup", "MV", "SUV", "Conver"};
+	b) string car_type[3] = {"Ford", "Chevy", "Ferrari"};
+	c) string availability_choice[2] = {"Yes","No"};
+	d) string availability[3][5];
+
+3) Create these public functions:
+	a) void car_availability() - with the use of the random library, choose Yes
+								 or No from the availability_choice array randomly
+								 and assign them to the availability array randomly
+								 each new day to generate new stock.
+	b) void current_stock() - output the current stock of the dealership in a nice
+							  table in the terminal
+	c) void new_day() - whenever this function is called, you will generate new stock
+						and output the new stock to the terminal
+	d) bool user_choice(int bodytype_choice, int type_choice)
+	    - by taking in the user's input, the user can check if the selected combo of
+	      the car bodytype and type is in stock and will return either true or false. 
+
+4) Use these libraries: <iostream>, <string>, <random>, <time.h>
+
+Due by next lab.

@@ -1,0 +1,32 @@
+Create a class called Classroom.
+Create a 2D array where you will choose 5 subjects and 10 students (5 rows and 10 columns)
+By using the random library, generate 50 different grades and use those values in your array.
+
+In your classroom class, you will create these private arrays:
+  1) string names[10] - Your student's names
+  2) string subjects[5] - Your specified subjects
+  3) int grades[5][10] - Randomly generated grades between 0 and 100
+
+Create these public methods:
+  1) random_grades_generator() - used to generate new random grades
+  2) class_show() - used to print out a table with all subjects, names, and grades
+  3) class_average(int choice) - used to choose a subject and calculate the classes' average grade
+
+
+Create three files: 
+  1) classroom.h - where you will have your class defition with all public and private methods
+  2) main.cpp - where you will test out your methods by creating an object and use all of the methods
+  3) fancy.cpp - where you will create an interactive environment where a user can choose between 
+                 four actions: 
+                 1) generate new grades by using random_grades_generator
+                 2) print out current grades of the class with student's names and subjects
+                 3) choose a subjects and get the classes' average grade for that subject (also
+                 introduce another choice condition loop for this part so that the user can choose
+                 the subject)
+                 4) exit out of the program
+
+Hints: a) Focus on main.cpp to make sure your methods work first and then go to the fancy part
+       b) Create an infinite while loop for your interactive environment so that you can exit out of
+          it by using exit(0).
+       c) The libraries needed are: <iostream>, <random>, <time.h>, <string>
+       d) There is no need of creating constructors

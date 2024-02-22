@@ -9,6 +9,7 @@ The return value of the sqrt() function is the square root of x
 
 */
 
+
 // Compute square root
 
 #include <iostream>
@@ -19,6 +20,20 @@ int main()
 {
 
     double x1 = 4.0, x2 = 12.25, x3 = 0.0121;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
