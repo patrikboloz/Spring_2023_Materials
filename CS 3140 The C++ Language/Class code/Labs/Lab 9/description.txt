@@ -1,0 +1,21 @@
+Create one file CarLab.cpp, where by using 3 different 
+namespaces, you will create 3 different Car constructs.
+The three namespaces will be named electric, hybrid, and
+gasoline. 
+
+Each car struct will have a string name, an int top speed,
+and and int acceleration. Create one constructor that will
+only take a string name, when creating an object with the
+contrust's name.
+You will then create a main function, where you will create
+3 car objects and by the use of an overloaded cout, output 
+all 3 car's information (name, top speed, acceleration) into
+the terminal.
+
+HINT: Create an overloaded operator<< function in each of the
+namespace to overload the << function.
+
+EXTRA CREDIT:
+Do this code without the use of "using namespace std;"
+
+Due by the end of lab.

@@ -1,0 +1,5 @@
+Create a parent class called Full_Employee and a child class called Part_Employee. The variables that the Full_Employee starts with are string Name, Title, int year_salary, and bool full_time = true. Create an instructor that takes in a string name and title, sets the year_salary to a number of your choosing and full_time is true. Create 6 public methods called get_name, get_title, set_salary, get_salary, set_status, and get_info.
+
+Then Part_Employee inherits all of these methods. Modify the constructor so that full_time will be false and yearly salary is a calculation of 15 dollars an hour, 20 hours a week for 26 pay periods.
+
+Then create at least 2 employees, modify them to your liking and test your methods.
