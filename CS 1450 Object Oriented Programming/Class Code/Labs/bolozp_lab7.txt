@@ -1,0 +1,17 @@
+This lab will use your skills of encapsulation and polymorphism.
+Create 3 car classes in 3 different files called Gasoline, Hybrid, and Electric.
+
+Each class will also start with an initial method where you will start with 0 speed,
+and different top speed.
+By the use of polymorphism, each class will have the same methods called:
+	1) accelarate
+	2) break
+	3) getCurrentSpeed
+You will choose how the speed will change based on the different car.
+
+Then create a main.py file where you will import all 3 classes and by the use of
+a for loop and a car list, create 5 different car objects and call the methods.
+Each car should accelerate at least twice, break at least once, and print out the 
+current speed to the terminal at least once.
+
+Due by next lab.

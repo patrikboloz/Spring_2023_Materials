@@ -1,0 +1,26 @@
+This lab will use your skills of encapsulation, polymorphism, and inheritance.
+Create 1 Car class and 3 child classes that inherit from the parent Car class
+called Gasoline, Hybrid, and Electric. The parent class will start like this:
+
+class Car():
+    def __init__(self, carType="Base Frame"):
+        if not carType == "Base Frame":
+            self.carType = None
+        else:
+        	self.carType = "Base Frame"
+        self.currentSpeed = 0
+
+    def accelarate(self, speedValue):
+    	print("Needs to be overwritten.")
+
+    def break(self, breakValue):
+    	print("Needs to be overwritten.")
+
+    def getCurrentSpeed(self):
+    	return self.currentSpeed
+
+Your 3 children classes will inherit from Car and will overwrite accelerate and break
+methods to your liking. Then create 5 child objects, accelerate and break at least once,
+and print out the current speed. 
+
+Due by the next lab.

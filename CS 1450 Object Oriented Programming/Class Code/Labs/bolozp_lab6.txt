@@ -1,0 +1,18 @@
+Lab 6
+
+Create a Python animation using two classes called Sun and Moon.
+Both of these objects will start in the opposite locations of each
+other with a constant distance between each other. With a circular 
+motion they will move around a center of the window in a constant
+speed.
+
+Extra credit:
+When the Sun object is on the top side of the screen, a "day" music
+will play and when the moon is on the top side of the screen, a "night"
+music will play.
+
+Hint: To learn more about how to implement a circular motion, research
+it online. A Youtube video about this matter can be found here: 
+https://youtu.be/8i_VbcPOnLs
+
+Due by next Lab.
